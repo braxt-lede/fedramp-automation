@@ -1,0 +1,35 @@
+_site
+.bash_history
+.history/*
+.m2
+.vscode
+*.DS_Store
+*.code-workspace
+dist/validations
+dist/web
+documents/source
+NOTES.md
+src/validations/lib/**.jar
+src/validations/report
+src/validations/src/ssp.xsl
+src/validations/target
+utils/*.xsl
+/node_modules
+
+# XSpec reports (from OxygenXML XSpec use)
+src/validations/test/rules/poam-result.html
+src/validations/test/rules/sar-result.html
+src/validations/test/rules/ssp-result.html
+src/validations/test/rules/sap-result.html
+
+# XSpec artifacts (from OxygenXML XSpec use)
+src/validations/test/rules/xspec
+
+# OxygenXML project files
+*.xpr
+
+src/validations/test/rules/rev5/ssp-result.html
+src/validations/test/rules/rev4/ssp-result.html
+src/validations/test/rules/rev5/poam-result.html
+src/validations/test/rules/rev5/sar-result.html
+
